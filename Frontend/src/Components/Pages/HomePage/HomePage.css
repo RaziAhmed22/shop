@@ -1,0 +1,158 @@
+/*.offers{
+	display: flex;
+	border: 1px solid black;
+	margin: 50px 120px;
+	margin-bottom: 200px;
+	text-align: center;
+	height: 950px;
+
+}
+.adds{
+	width: 50%;
+	text-align: center;
+}
+.today{
+	width: 50%;
+	text-align: center;
+}
+.chart{
+	border: 1px solid black;
+	text-align: center;
+}
+.heading{
+	display: flex;
+}
+.content{
+	margin: 35px 60px;
+	text-align: left;
+}*/
+/*.picHover{
+	display: flex;
+	margin: 40px 70px;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	justify-content: center;
+}
+
+.Div1{
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+
+}
+.together{
+	display: flex
+
+}
+.img1{
+	width: 550px;
+	height: 270px;
+	background-image: url("https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/p2.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 35px;
+}
+.img2{
+	margin-right: 26px;
+	width: 262px;
+	height: 250px;
+	background-image: url("https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/p3.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+.img3{
+	width: 262px;
+	height: 250px;
+	background-image: url("https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/p4.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+.img4{
+	display: flex;
+	width: 500px;
+	height: 555px;
+	background-image: url("https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/111.jpg");
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.bgImg:hover{
+	transform: scale(1.1);
+	transition: transform 6s cubic-bezeir(0.25,0.45,0.45,0.95);
+	transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    overflow: hidden;
+
+}
+.outter{
+	overflow: hidden;
+}*/
+/*.brands{
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.brands h1{
+	margin:60px;
+	margin-bottom: 0px;
+}
+.bordTop{
+	border-top: 2px solid black;
+	width: 150px;
+	margin-bottom: 60px;
+}
+.outterDiv{
+	border: 2px solid black;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.innerContainer{
+	border: 1px solid red;
+	width: 170px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 70px;
+}*/
+h1{
+	margin-left: 20px;
+	padding-left: 20px;
+}
+.offerCard{
+	border: 1px solid black;
+	width: 300px;
+	height: 350px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 20px;
+}
+.offerCard div{
+	margin-top: 10px;
+}
+.price{
+	display: flex;
+	justify-content: center;
+	margin-bottom:20px;
+}
+.price div{
+	margin-right: 10px;
+}
+
+.discount{
+	text-decoration: line-through;
+}
+.offerContainer{
+	display: flex;
+}

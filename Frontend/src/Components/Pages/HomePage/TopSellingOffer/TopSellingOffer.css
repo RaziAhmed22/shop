@@ -1,0 +1,136 @@
+.offer-tag{
+	display: flex;
+	justify-content: flex-end;
+}
+.offer-tag-content{
+	background: #fe9126;
+	color: white;
+	width: 50px;
+}
+.addToCartButton{
+	font-size: 14px;
+    color: #fff;
+    background: #3399cc;
+    text-decoration: none;
+    /*position: relative;*/
+    /*position: absolute;*/
+    border: none;
+    border-radius: 0;
+    width: 80%;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+    outline: none;
+}
+.addToCartButton:hover{
+	background: #fe9126;
+	transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+}
+.offers{
+	border: 1px solid lightgray;
+	margin: 50px 120px;
+	text-align: center;
+    color: #333;
+	background: #f5f5f5;
+    
+}
+.adds{
+	width: 50%;
+	text-align: center;
+	color: #FFF;
+    background: #fe9126;
+    border: 0px solid transparent;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0px 0px 0 0;
+
+}
+.adds:hover{
+	background: #fe9126;
+	cursor: pointer;
+}
+.today:hover{
+	background: #fe9126;
+	cursor: pointer;
+	color: white;
+}
+.today{
+	width: 50%;
+    line-height: 1.42857143;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 0 0;
+    color: #016773;
+}
+.chart{
+	border: 1px solid black;
+}
+.heading{
+	display: flex;
+}
+.content{
+	margin: 35px 60px;
+	text-align: left;
+}
+.topheader{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:40px ;
+}
+.borTop{
+	border-top: 1px solid blue;
+	width: 230px;
+	text-align: center;
+	margin-left: 10px;
+}
+.firstHeader{
+	text-align: center;
+    color: #212121;
+    /*position: relative;*/
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 700
+}
+.head{
+	font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+.chking{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+.PL{
+	display: flex;
+}
+.offer-card1:hover{
+	cursor: pointer;
+	transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    /*-webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);*/
+}
+.offer-card1{
+	border: 1px solid lightgray;
+	width: 300px;
+	height: 330px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+@media (max-width: 475px){
+	.borTop{
+		width: 130px;
+	}
+}

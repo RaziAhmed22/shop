@@ -1,0 +1,79 @@
+.signup-button-div{
+    margin: 20px 45px;
+    text-align: center;
+}
+.signup-button{
+    border: none;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+    color: #fff;
+    display: block;
+    background: #3399cc;
+}
+.signup-button:hover{
+    background: #fe9126;
+    transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+}
+.signup-inner-div{
+	margin: 20px 45px;
+	color: #212121;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+}
+.subletter{
+    border: 2px solid lightgray;
+    width: 20px;
+    height: 20px;
+    margin: 20px 45px;
+}
+.checkBox{
+    display: flex;
+}
+.checkBox-value{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.checkBox-div{
+    width: 80px;
+}
+.home-button{
+    padding: 8px 45px;
+    background: #9F9F9F;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    border:none;
+}
+.home-button:hover{
+    background: #fe9126;
+    transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+}
+@media (max-width: 475px){
+    .signup-inner-div{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .checkBox-value{
+        /*border: 2px solid black;*/
+        /*width: 100%;*/
+        margin-left: 40px;
+    }
+    .signup-button-div{
+        /*border: 2px solid blue;*/
+        display: flex;
+        justify-content: center;
+    }
+    .signup-button{
+        /*border: 2px solid black;*/
+        width: 50%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,95 @@
+.offerTable{
+	border: 2px solid lightgray;
+	margin: 40px 65px;
+}
+.tableHeading{
+	display: flex;
+	text-align:center;
+}
+.allProduct{
+	width: 50%;
+	/*color: #FFF;
+    background: #fe9126;
+    font-weight: 600;*/
+    background: 1px solid white;
+}
+.allProduct:active{
+	width: 50%;
+	color: #FFF;
+    background: #fe9126;
+    font-weight: 600;
+}
+.dailyOffer{
+	width: 50%;
+	border: 1px solid white;
+}
+.dailyOffer:active{
+	width: 50%;
+	color: #FFF;
+    background: #fe9126;
+    font-weight: 600;
+}
+.offerTableCard{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.offer-card{
+	border: 1px solid lightgray;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.insidePara{
+	margin: 20px 40px;
+	width: 45%;
+    line-height: 28px;
+}
+.hd{
+	font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+.Pg{
+	font-size: 14px;
+    color: #777;
+}
+.bttn{
+	margin-bottom: 20px;
+}
+.allProduct:hover{
+	cursor: pointer;
+	color: #FFF;
+    background: #fe9126;
+}
+.dailyOffer:hover{
+	cursor: pointer;
+	color: #FFF;
+    background: #fe9126;
+}
+@media (max-width: 475px){
+	.allProduct{
+		text-align: center;
+	}
+	.dailyOffer{
+		text-align: center;
+	}
+	.allProduct h2{
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.dailyOffer h2{
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.hd{
+		font-weight: 600;
+		font-size: 15px;
+	}
+
+	.Pg{
+		font-size: 12px;
+	}
+}

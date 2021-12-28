@@ -1,0 +1,70 @@
+.brands{
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #eed3b6;
+	justify-content:center ;
+
+
+}
+.brands h1{
+	margin: 0px;
+	margin-right: 20px;
+	text-align: center;
+}
+.bordTop-1{
+	border-top: 2px solid #39c;
+	/*border: 2px solid black;*/
+	width: 150px;
+	margin-bottom: 60px;
+	margin-top: 15px;
+	text-align: center;
+}
+.outterDiv{
+	/*border: 2px solid black;*/
+	margin-right: 30px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.innerContainer{
+	/*border: 1px solid red;*/
+	width: 170px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #39c;
+    background: #fff;
+    padding: 16px;
+    /*display: block;*/
+    border: 1px solid #e1e1e1;
+}
+.containerDiv{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 70px;
+	justify-content: center;
+	margin-left: 30px;
+	/*border: 2px solid black;*/
+}
+.brand-upper-heading{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+@media (max-width: 475px){
+	.brand-upper-heading{
+		/*margin: 10px;*/
+		/*border: 2px solid brown;*/
+	}
+	.bordTop-1{
+		width: 100px;
+	}
+}

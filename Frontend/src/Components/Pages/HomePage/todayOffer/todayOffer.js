@@ -1,0 +1,45 @@
+const todayOffer=[
+	{
+				id:1,
+				name:'Moongh',
+				imageUrl:'https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/hh2.png',
+				priceAfter:30.99,
+				priceBefore:45.00
+			},
+			{
+				id:2,
+				name:'Cookware',
+				imageUrl:'https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/hh2.png',
+				priceAfter:30.99,
+				priceBefore:45.00
+			},
+			{
+				id:3,
+				name:'Rash Cream',
+				imageUrl:'https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/pc2.png',
+				priceAfter:30.99,
+				priceBefore:45.00
+			},
+			{
+				id:4,
+				name:'Parryss-Sugar',
+				imageUrl:'https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/pf7.png',
+				priceAfter:30.99,
+				priceBefore:45.00
+			},
+			{
+				id:5,
+				name:'Tropicana',
+				imageUrl:'https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/bv3.png',
+				priceAfter:30.99,
+				priceBefore:45.00
+			},
+			{
+				id:6,
+				name:'Gourmet',
+				imageUrl:'https://p.w3layouts.com/demos_new/13-02-2017/super_market-demo_Free/405423547/web/images/gu2.png',
+				priceAfter:30.99,
+				priceBefore:45.00
+			},
+]
+export default todayOffer

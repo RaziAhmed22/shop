@@ -1,0 +1,29 @@
+.Card{
+	border: 1px solid lightgray;
+	width: 240px;
+	height: 350px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 20px;
+	background: white;
+}
+.Card div{
+	/*margin-top: 10px;*/
+}
+.price{
+	display: flex;
+	justify-content: center;
+	margin-bottom:20px;
+}
+.price div{
+	margin-right: 10px;
+}
+
+.discount{
+	text-decoration: line-through;
+}
+
+.Card:hover{
+	cursor: pointer;
+}
+

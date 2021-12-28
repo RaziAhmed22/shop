@@ -1,0 +1,47 @@
+.Card{
+	display: flex;
+}
+.CategoryPage{
+	display: flex;
+	margin:40px 20px;
+	flex-wrap: wrap;
+	border: 2px solid black;
+}
+.sideBox{
+	margin-left: 20px;
+	/*border: 1px solid darkred;*/
+}
+.anotherBuffer{
+	/*width: 100px;*/
+}
+.extraBar{
+	padding: 1.5em 0;
+    background: #f5f5f5;
+    font-size: 1em;
+    color: #999;
+}
+.CategoryPageBg{
+	background: white;
+}
+.hBar{
+	color: #337ab7;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.innerBar{
+	margin-left: 120px;
+}
+.psuedo{
+	display: flex;
+	/*border: 2px solid red;*/
+	margin: 80px 20px;
+	flex-wrap: wrap;
+}
+.pr-list{
+	margin-top: 80px;
+	/*border: 2px solid blue;*/
+	width: 900px;
+	text-align: center;
+}

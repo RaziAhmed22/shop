@@ -1,0 +1,48 @@
+.bordTop{
+	border-top: 2px solid blue;
+	margin-left: 40px;
+	width: 100px;
+}
+
+.offerCard{
+	border: 1px solid lightgray;
+	width: 235px;
+	height: 360px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 20px;
+	background: white;
+}
+.offerCard div{
+	/*margin-top: 10px;*/
+}
+.price{
+	display: flex;
+	justify-content: center;
+	margin-bottom:20px;
+}
+.price div{
+	margin-right: 10px;
+}
+.newoffers{
+	margin-top: 40px;
+	/*border: 2px solid black;*/
+	background: #f5f5f5;
+}
+.headings{
+	display: flex;
+	/*border: 1px solid black;*/
+	align-items: center;
+	flex-direction: column;
+	height: 80px;
+	justify-content: center;
+	margin-left:-40px;
+}
+.offerContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.offerCard:hover{
+	cursor: pointer;
+}
